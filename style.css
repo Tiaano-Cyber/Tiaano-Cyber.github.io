@@ -1,0 +1,36 @@
+body {
+    justify-content: center;
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: auto;
+}
+
+h1 {
+color: black;
+font-family: 'Times New Roman';
+padding-left: 600px;
+padding-right: 600px;
+}
+
+body {
+    opacity: 0.8;
+}
+
+body:hover {
+    opacity: 1.0;
+}
+
+button {
+    border-radius: 20px;
+}
+
+#dark:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+#reset:hover {
+    background-color: skyblue;
+}

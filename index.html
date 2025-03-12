@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="author" content="S.Sanoj">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width-intial-scale=1.0">
+    <title>Theme Change</title>
+</head>
+<body>
+ <link rel="stylesheet" href="style.css">
+ <script>
+ function Dark() {
+ const body = document.querySelector(
+  "body")
+  const h1 = document.querySelector(
+    "h1")
+  const button = document.querySelector( 
+   "#dark")
+   const reset = document.querySelector( 
+   "#reset")
+   const menu = document.querySelector(
+    "#menu")
+ body.style.backgroundColor = "black";
+ h1.style.color = "white";
+ button.style.backgroundColor = "darkblue";
+ button.style.color = "whitesmoke";
+ reset.style.backgroundColor = "white";
+ menu.style.backgroundColor = "white";
+ alert("Dark Mode Is On")
+}
+function Day() {
+ const body = document.querySelector(
+  "body")
+  const h1 = document.querySelector(
+    "h1")
+  const button = document.querySelector( 
+   "#reset")
+   const dark = document.querySelector( 
+   "#dark")
+   const menu = document.querySelector(
+    "#menu")
+  body.style.backgroundColor = "burlywood";
+  h1.style.color = "black";
+  button.style.backgroundColor = "skyblue";
+  dark.style.backgroundColor = "white";
+  dark.style.color = "black";
+  menu.style.backgroundColor = "burlywood";
+}
+
+console.log(location.href)
+</script>
+<div class="flex-container" id="menu"> 
+<nav>
+  <a href="#">HOME</a>
+  <a href="/About.html">About</a>
+ </nav>
+ <hr>
+ </div>
+ <div class="flex-container">
+ <button onclick="Dark()" id="dark">Dark Theme🌙</button>
+ <button onclick="Day()" id="reset">Light Theme ☀️</button>
+ <a href="/Users/Surendar/Desktop/SANOJ%20FILES/Theme%20Changer/subprocess.html"><button>RESET</button></a>
+ <hr>
+ </div>
+ <h1>Choose Your Theme</h1>
+ <div class="flex-container">
+ <img src="https://i.ibb.co/Zz82Z0zb/ai-generated-earth-globe-illustration-animation-horizontal-with-plants-copy-space-banner-ecological.jpg" alt="ai-generated-earth-globe-illustration-animation-horizontal-with-plants-copy-space-banner-ecological-" width="1600px" height="640px">
+ </div>
+</body>
+</html>

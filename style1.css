@@ -1,0 +1,66 @@
+body {
+    justify-content: center;
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: auto;
+    opacity: 0.8;
+    background-image: url("https://i.ibb.co/gYYwpgZ/download.jpg" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    padding-left: 600px;
+    padding-right: 600px;
+    justify-items: center;
+}
+
+body:hover {
+    opacity: 1.0;
+}
+
+#media {
+    justify-content: center;
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 105px;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+#f {
+    border-radius: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#s {
+    border-radius: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#t {
+    border-radius: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+button {
+    justify-content: center;
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+}
